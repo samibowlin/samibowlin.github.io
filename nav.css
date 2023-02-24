@@ -1,26 +1,19 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Navigation</title>
-        <style>
-        ul li {
-            display: block;
-             border: 3px dotted #ffc7c2;
-             width: 150px;
-             list-style-type: none;
-              padding: 15px 15px 15px 25px;
-              margin-bottom: 5px;}
+   
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                width: 60px;
+                background-color: #8fb5b7
+              }
+              
+
+            li a {
         
-        </style>
-    </head>
-    <body>
-        <nav>
-            <ul>
-            <li><a href="index.html">HOME</a>
-                <li><a href="about.html">ABOUT</a>
-                    <li><a href="#projects.html"></a>            </ul>
-        </nav>   
-        
-    </body>
-    </html>
+                display: block;
+                width: 60px;
+                color: white;
+                border: 15px solid #ffc7c2;
+                padding: 50px;
+                margin: 20px;
+              }
