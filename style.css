@@ -1,4 +1,5 @@
-body {background-color: lightblue;}
+body {background-color: #eee3c3; margin-left: 20px;
+  ;}
   
   h1 { color:#FFC7c2; margin-left: 20px;
     font-family: 'letter_magicregular';
@@ -7,7 +8,7 @@ body {background-color: lightblue;}
   h2 { color:#eaac8b; margin-left: 20px;font-family: 'letter_magicregular';
     font-weight: normal;
     font-style: normal; }
-  body {color: #eee3c3; margin-left: 20px;
+  body {color: lightblue; margin-left: 20px;
   font-family: 'georgia';
   font-weight: normal;
   font-style: normal;}
