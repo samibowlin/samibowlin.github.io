@@ -1,4 +1,4 @@
-body {background-color: #eee3c3; margin-left: 20px;
+body {background-color: #8fb5b7; margin-left: 20px;
   ;}
   
   h1 { color:#FFC7c2; margin-left: 20px;
@@ -16,7 +16,7 @@ body {background-color: #eee3c3; margin-left: 20px;
   p::first-letter {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #8fb5b7;}
+    color:#FFC7c2 ;}
 
 @font-face {
     font-family: 'letter_magicregular';
