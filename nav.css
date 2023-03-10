@@ -4,16 +4,40 @@
                 margin: 0;
                 padding: 0;
                 width: 60px;
+                border: 3px dotted white;
+                display: block;
                 background-color: #8fb5b7
               }
               
+              nav>ul li {
+                position: relative;
+                text-align: center;
+                font-weight: bold;
+                color: white;
+                background-color: #8fb5b7;
+                float: left; }
 
+                nav>ul>li:hover>ul{
+                  display: block;}
+
+                  nav a:hover, nav a:focus {
+                    background-color: #8fb5b7;
+                }
+                nav ul>li ul {
+                  position: absolute;
+                  top: 100%;
+                  display: none;
+              }
+              nav ul ul li {
+                  float:none;
+              }
             li a {
         
                 display: block;
                 width: 60px;
-                color: white;
+                display: block;
                 border: 15px solid #ffc7c2;
-                padding: 50px;
-                margin: 20px;
+                padding: 15px 15px 15px 15px;
+                width: 150px; 
+                margin: 2px;
               }
