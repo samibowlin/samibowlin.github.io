@@ -8,7 +8,7 @@ body {background-color: #8fb5b7; margin-left: 20px;
   h2 { color:#eaac8b; margin-left: 20px;font-family: 'letter_magicregular';
     font-weight: normal;
     font-style: normal; }
-  body {color: lightblue; margin-left: 20px;
+  body {color: white; margin-left: 20px;
   font-family: 'georgia';
   font-weight: normal;
   font-style: normal;}
@@ -18,11 +18,3 @@ body {background-color: #8fb5b7; margin-left: 20px;
     font-weight: bold;
     color:#FFC7c2 ;}
 
-@font-face {
-    font-family: 'letter_magicregular';
-    src: url('letter_magic-webfont.woff2') format('woff2'),
-         url('letter_magic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
