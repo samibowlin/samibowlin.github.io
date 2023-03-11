@@ -1,21 +1,24 @@
    
+            nav {
+              top: 80px;
+          }
             ul {
                 list-style-type: circle;
                 margin: 0;
                 padding: 0;
-                width: 60px;
-                border: 3px dotted white;
                 display: block;
                 background-color: #8fb5b7
               }
               
               nav>ul li {
+                width: 150px;
                 position: relative;
                 text-align: center;
                 font-weight: bold;
                 color: white;
                 background-color: #8fb5b7;
-                float: left; }
+                float: left; 
+                margin-bottom: 2px;}
 
                 nav>ul>li:hover>ul{
                   display: block;}
@@ -25,12 +28,12 @@
                 }
                 nav ul>li ul {
                   position: absolute;
-                  top: 100%;
-                  display: none;
-              }
+                  top: 0;
+                  left: 100%;
+                  display: none;}
               nav ul ul li {
-                  float:none;
-              }
+                  float:none;}
+
             li a {
         
                 display: block;
