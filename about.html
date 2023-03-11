@@ -1,43 +1,52 @@
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
-        <title>Sami Bowlin</title>
+        <title>About Page</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="nav.css">
+    <nav>    
+        <ul>
+            <li><a href="index.html">HOME</a>
+                <li><a href="about.html">ABOUT</a>
+                    <li><a href="#projects.html">PROJECTS</a>       
+                        <li><a href="reflection.html">REFLECTION</a>   
+                            <li><a href="#contact.html">CONTACT ME</a>   
+                                <li><a href="#project.html">PROJECT</a>   
+                    </ul></nav>
 
     <meta charset="utf-8">
-     
-   
-   
+
     <style>
-    .wrapper {
-        display: grid;
-        grid-template-columns: 1fr 5fr 2fr;
-        grid-template-rows: 5fr 20fr 5fr;
-        grid-gap: 10px;
-        height: 720px;
-    }
-
-    header {
-        grid-column-start: 1;
-        grid-column-end: 4;
-    }
-
-    footer {
-        grid-column-start: 1;
-        grid-column-end: 4;
-    }
-
-    .wrapper * {
-        background: #eaac8b;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 1px;
-        margin-right: 1px;
-    }
-</style>
-
+        .wrapper {
+            display: grid;
+            grid-template-columns: 1fr 5fr 2fr;
+            grid-template-rows: 5fr 20fr 5fr;
+            grid-gap: 10px;
+            height: 720px;
+        }
+    
+        header {
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+    
+        footer {
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+    
+        .wrapper * {
+            background: #eaac8b;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 1px;
+            margin-right: 1px;
+        }
+        </style>
+        
+   
+    
     </head>
 
     <body>
@@ -48,15 +57,7 @@
 <main>
     <div class="wrapper">
         <div class="box header">About Me </header> 
-        <div class="box sidebar"><nav>    
-            <ul>
-                <li><a href="index.html">HOME</a>
-                    <li><a href="about.html">ABOUT</a>
-                        <li><a href="#projects.html">PROJECTS</a>       
-                            <li><a href="reflection.html">REFLECTION</a>   
-                                <li><a href="#contact.html">CONTACT ME</a>   
-                                    <li><a href="#project.html">PROJECT</a>   
-                        </ul></nav> </div>
+        <div class="box sidebar"> </div>
         <div class="box content">
             <img src="Sami.jpg"  width="70%" height="auto" alt="This is me">
             <p>Education: University of Missouri 2021-2025 <img src="mizzou.png"  width="70%" height="auto" alt="This is my school!"> </p>
@@ -65,7 +66,6 @@
             <p>Check out my resume!</p>
             <a href="../resume.pdf">RESUME</a>
             </div>
-        
         <div class="box footer">Copyright © 2023 by Samantha Bowlin. All rights reserved.</div>
      
     </div>        
