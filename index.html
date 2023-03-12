@@ -1,32 +1,85 @@
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="en-US">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="nav.css">
 
-               <meta charset="utf-8">
-               <title>Sami Bowlin</title>
+<style>
+body { 
+  display: grid;
+  grid-template-areas: 
+    "header header ads"
+    "nav article article"
+    "nav footer footer";
+  grid-template-rows: 80px 1fr 70px;  
+  grid-template-columns: 20% 1fr 15%;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  height: 100vh;
+  margin: 0;
+  }  
+header, footer, article, nav, div {
+  padding: 1.2em;
+  background: #8fb5b7;
+  }
+#pageHeader {
+  grid-area: header;
+  }
+#pageFooter {
+  grid-area: footer;
+  }
+#mainArticle { 
+  grid-area: article;      
+  }
+#mainNav { 
+  grid-area: nav; 
+  }
+#siteAds { 
+  grid-area: ads; 
+  } 
+/* Stack the layout on small devices/viewports. */
+@media all and (max-width: 575px) {
+  body { 
+    grid-template-areas: 
+      "header"
+      "article"
+      "ads"
+      "nav"
+      "footer";
+    grid-template-rows: 80px 1fr 70px 1fr 70px;  
+    grid-template-columns: 1fr;
+ }
+}
+</style>
+<title>Welcome to My Portfolio Page!</title>
+</head>
 <body>
-    <nav>    
-        <nav id="mainNav">  <ul class="menu">
-            <li><a href="index.html">HOME</a>
-                <li><a href="about.html">ABOUT</a>
-                    <li class="submenu"><a href="#projects.html">PROJECTS</a> 
-                        <ul class="dropdown">
-                            <li><a href="#">Link 1</a></li>
-                            <li><a href="#">Link 2</a></li>
-                            <li><a href="#">Link 3</a></li>
-                          </ul>
-                        <li><a href="reflection.html">REFLECTION</a>   
-                            <li><a href="#contact.html">CONTACT ME</a>   
-                                <li><a href="#project.html">PROJECT</a>   
-                    </ul></nav>
- 
- 
-<h2>My Portfolio Page </h2>
-    <p>Welcome! My name is Sami Bowlin and I am a student at Mizzou's School of Journalism. I am a Strategic Communication major, minoring in business. I focus on infographic creation and layout design currently. My personal design style is a mixture of Bohemian and art deco. I use many bright colors and retro fonts that give a strong Bohemian vibe. Strong line work and geometric shapes show in my work. These illustrate the art deco style. My identity shines in my work. My photography also captures these styles and moods. My work can all be seen on this portfolio website. </p>
-    <footer>Copyright © 2023 by Samantha Bowlin. All rights reserved. </footer>
+    <header id="pageHeader"><h1>Reflection!</h1></header>
+    <article id="mainArticle"> 
+              <p style = "text-indent:2cm;">     <p>Welcome! My name is Sami Bowlin and I am a student at Mizzou's School of Journalism. I am a Strategic Communication major, minoring in business. I focus on infographic creation and layout design currently. My personal design style is a mixture of Bohemian and art deco. I use many bright colors and retro fonts that give a strong Bohemian vibe. Strong line work and geometric shapes show in my work. These illustrate the art deco style. My identity shines in my work. My photography also captures these styles and moods. My work can all be seen on this portfolio website. </p>
 
-</body>
-</html>
+        
+     </article>
+    <nav id="mainNav">  <ul class="menu">
+              <li><a href="index.html">HOME</a>
+                  <li><a href="about.html">ABOUT</a>
+                      <li class="submenu"><a href="#projects.html">PROJECTS</a> 
+                          <ul class="dropdown">
+                              <li><a href="#">Link 1</a></li>
+                              <li><a href="#">Link 2</a></li>
+                              <li><a href="#">Link 3</a></li>
+                            </ul>
+                          <li><a href="reflection.html">REFLECTION</a>   
+                              <li><a href="#contact.html">CONTACT ME</a>   
+                                  <li><a href="#project.html">PROJECT</a>   
+                      </ul></nav>
+    <div id="siteAds"><img src="Logo.png"  width="150" height="150" alt="This is a logo"></div>
+    <footer id="pageFooter">Copyright © 2023 by Samantha Bowlin. All rights reserved.
+                </footer>
+         
+         </body>
+         </html>
+
+
