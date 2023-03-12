@@ -10,7 +10,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 60px;
+  width: 20%;
   background-color: #Eaac8b;
   color: white;
   height: 100%;
@@ -24,3 +24,18 @@ li a:hover {
 li:last-child {
   border-bottom: none;
 }
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+.subnav:hover .subnav-content {
+  display: block;
+}
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+
+
