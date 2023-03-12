@@ -1,7 +1,7 @@
 .menu {
-  display: flex;
+  display: block;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-start;
   background-color: #eaac8b;
   color: #F5F5F5; 
   list-style: none;
