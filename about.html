@@ -1,14 +1,72 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-US">
-    <head>
-        <meta charset="utf-8">
-        <title>About Page</title>
-     <link rel="stylesheet" href="style.css">
-     <link rel="stylesheet" href="nav.css">
-    </head>
-     <body>
-     <nav>    
-        <ul class="menu">
+<title>About me!</title>
+<head><link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
+<style>
+    
+    
+body { 
+  display: grid;
+  grid-template-areas: 
+    "header header ads"
+    "nav article article"
+    "nav footer footer";
+  grid-template-rows: 80px 1fr 70px;  
+  grid-template-columns: 20% 1fr 15%;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  height: 100vh;
+  margin: 0;
+  }  
+header, footer, article, nav, div {
+  padding: 1.2em;
+  background: #8fb5b7;
+  }
+#pageHeader {
+  grid-area: header;
+  }
+#pageFooter {
+  grid-area: footer;
+  }
+#mainArticle { 
+  grid-area: article;      
+  }
+#mainNav { 
+  grid-area: nav; 
+  }
+#siteAds { 
+  grid-area: ads; 
+  } 
+/* Stack the layout on small devices/viewports. */
+@media all and (max-width: 575px) {
+  body { 
+    grid-template-areas: 
+      "header"
+      "article"
+      "ads"
+      "nav"
+      "footer";
+    grid-template-rows: 80px 1fr 70px 1fr 70px;  
+    grid-template-columns: 1fr;
+ }
+}
+</style>
+</head>
+<body>
+    
+  <header id="pageHeader"><h1>All About Me!</h1></header>
+  <article id="mainArticle"> <img src="Sami.jpg"  width="200" height="200" alt="This is a headshot of me">
+            <p style = "text-indent:2cm;"> Hello! My name is Sami Bowlin and I am a student at Mizzou's School of Journalism. I am a Strategic Communication major, minoring in business. I focus on <strong>infographic creation</strong> and <strong>graphic design.</strong> </p>
+            <ul class="list">
+                <li> Check out my<a href="../resume.pdf">RESUME</a> </li>
+                <li>Check out my<a href="portolio.pdf">Portfolio Book</a></li> <li>Currently Working for MATCHBOOK MARKETING</li>
+                <li><img src="matchbook.jpeg"  width="200" height="200" alt="This is me"></li>
+          <li>Education: University of Missouri 2021-2025 </li>
+              <li><img src="mizzou.png"  width="200" height="200" alt="This is my school!"> </li>
+            
+            </ul></article>
+  <nav id="mainNav">  <ul class="menu">
             <li><a href="index.html">HOME</a>
                 <li><a href="about.html">ABOUT</a>
                     <li class="submenu"><a href="#projects.html">PROJECTS</a> 
@@ -21,26 +79,6 @@
                             <li><a href="#contact.html">CONTACT ME</a>   
                                 <li><a href="#project.html">PROJECT</a>   
                     </ul></nav>
-<main>
-    <div class="container">
-        <div class="item1"> 
-            <h1>Meet Me! </h1> 
-            <img src="Sami.jpg"  width="200" height="200" alt="This is a headshot of me">
-            <p style = "text-indent:2cm;"> Hello! My name is Sami Bowlin and I am a student at Mizzou's School of Journalism. I am a Strategic Communication major, minoring in business. I focus on <strong>infographic creation</strong> and <strong>graphic design.</strong> </p>
-            <ul class="list">
-                <li> Check out my<a href="../resume.pdf">RESUME</a> </li>
-                <li>Check out my<a href="portolio.pdf">Portfolio Book</a></li>
-                <li>Currently Working for MATCHBOOK MARKETING</li>
-                <li><img src="matchbook.jpeg"  width="200" height="200" alt="This is me"></li>
-            </ul>
-        </div>
-        <div class="item2"></div>
-             <p>Education: University of Missouri 2021-2025 </p>
-              <p><img src="mizzou.png"  width="200" height="200" alt="This is my school!"> </p>
-        </div>
-             <div class="box footer"> Copyright © 2023 by Samantha Bowlin. All rights reserved.
-              </div>
-    
- </main>            
-</body>
-</html>
+  <div id="siteAds"><img src="Logo.png"  width="150" height="150" alt="This is a logo"></div>
+  <footer id="pageFooter">Copyright © 2023 by Samantha Bowlin. All rights reserved.
+              </footer>
