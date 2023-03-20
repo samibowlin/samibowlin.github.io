@@ -1,0 +1,85 @@
+
+<!doctype html>
+<html lang="en-US">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
+
+<style>
+body { 
+  display: grid;
+  grid-template-areas: 
+    "header header ads"
+    "nav article article"
+    "nav footer footer";
+  grid-template-rows: 80px 1fr 70px;  
+  grid-template-columns: 20% 1fr 15%;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  height: 100vh;
+  margin: 0;
+  }  
+header, footer, article, nav, div {
+  padding: 1.2em;
+  background: #8fb5b7;
+  }
+#pageHeader {
+  grid-area: header;
+  }
+#pageFooter {
+  grid-area: footer;
+  }
+#mainArticle { 
+  grid-area: article;      
+  }
+#mainNav { 
+  grid-area: nav; 
+  }
+#siteAds { 
+  grid-area: ads; 
+  } 
+/* Stack the layout on small devices/viewports. */
+@media all and (max-width: 575px) {
+  body { 
+    grid-template-areas: 
+      "header"
+      "article"
+      "ads"
+      "nav"
+      "footer";
+    grid-template-rows: 80px 1fr 70px 1fr 70px;  
+    grid-template-columns: 1fr;
+ }
+}
+</style>
+<title>Projects</title>
+</head>
+<body>
+    <header id="pageHeader"><h1>My Projects!</h1></header>
+    <article id="mainArticle"> 
+              <p style = "text-indent:2cm;">     <p>insert projects here :0 </p>
+        
+     </article>
+     <nav id="mainNav">  
+        <ul class="menu">
+            <li><a href="index.html">HOME</a>
+                <li><a href="about.html">ABOUT</a>
+                    <li class="submenu"><a href="#projects.html">PROJECTS</a> 
+                        <ul class="dropdown">
+                            <li><a href="#">Link 1</a></li>
+                            <li><a href="#">Link 2</a></li>
+                            <li><a href="#">Link 3</a></li>
+                          </ul>
+                        <li><a href="reflection.html">REFLECTION</a>   
+                            <li><a href="#contact.html">CONTACT ME</a>   
+                                <li><a href="#project.html">PROJECT</a>   
+            </ul>
+    </nav>
+    <div id="siteAds"><img src="Logo.png"  width="120" height="120" alt="This is a logo"></div>
+    <footer id="pageFooter">Copyright © 2023 by Samantha Bowlin. All rights reserved.
+                </footer>
+         
+         </body>
+         </html>
+
+
