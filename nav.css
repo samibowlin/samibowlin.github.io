@@ -17,6 +17,10 @@ ul {
   position: fixed;
 
 }
+.menu,
+.submenu {   
+    list-style-type: none;
+}
 li a:hover {
   background-color: #8fb5b7;
   color: white;
@@ -24,18 +28,4 @@ li a:hover {
 li:last-child {
   border-bottom: none;
 }
-.subnav {
-  float: left;
-  overflow: hidden;
-}
-.subnav:hover .subnav-content {
-  display: block;
-}
-.subnav-content a {
-  float: left;
-  color: white;
-  text-decoration: none;
-}
-
-
 
