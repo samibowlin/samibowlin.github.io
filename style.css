@@ -41,3 +41,103 @@ body {background-color: #8fb5b7; margin-left: 20px;
       grid-area: 3 / 1 / 4 / 4;
       }
 
+/**************************************Media Queries****************************/
+
+@media only screen and (min-width: 250px) {
+  #header1 {
+    font-size: 1em;
+  }
+  
+  .about-main {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .about_header {
+    text-align:center;
+    width: 100%;
+   }
+   
+   .about_img {
+     width: 100%;
+     margin: auto;
+     margin-bottom: 5%;
+   }
+  
+  video {
+     width: 100%;
+   }
+  
+   .about_para {
+     margin: 0 auto;
+     width: 100%;
+     padding: 5px;
+  
+   }
+  
+  
+  
+   .about_button {
+     margin: 0 auto;
+     text-align: center;
+     font-weight: 400;
+     margin-bottom: 20%;
+   }
+  }
+  
+  
+  
+  /****** Home page/Reflection media query*****/
+  
+  @media only screen and (min-width: 450px) {
+    
+  
+    .top-bar p, h3 {
+      display: none;
+    
+    }
+  
+    .about_para h1 {
+      font-size: 175%;
+     }
+  
+   
+  
+     #header1 h1 {
+      font-size: 175%;
+    }
+  
+    h4 {
+      font-size: 110%;
+    }
+    
+  }
+  
+  @media only screen and (min-width: 800px ) {
+    .about_para h1 {
+      font-size: 200%;
+     }
+  
+     .about_header {
+      font-size: 160%;
+     }
+    
+  
+     #header1 h1 {
+      font-size: 200%;
+    }
+  
+    h4 {
+      font-size: 130%;
+    }
+    #home-header {
+      font-size: 160%;
+      }
+      .greetings {
+        font-size: 175%; 
+      }
+    
+      .top-bar p, h3 { 
+        display: block;
+      }
+  }
