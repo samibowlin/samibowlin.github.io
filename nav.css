@@ -20,6 +20,7 @@ ul {
 .menu,
 .submenu {   
     list-style-type: none;
+    text-align: left;
 }
 li a:hover {
   background-color: #8fb5b7;
@@ -28,4 +29,16 @@ li a:hover {
 li:last-child {
   border-bottom: none;
 }
+.nav ul li:hover > ul {
+  display: block;
+}
+.nav ul.submenu {
+  display: none;
+  position: absolute;
+  left: 153px;
+  top: 147px;
+  width: 150px;
+  text-align: center;
+}
+
 
