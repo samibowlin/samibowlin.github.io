@@ -17,11 +17,6 @@ ul {
   position: fixed;
 
 }
-.menu,
-.submenu {   
-    list-style-type: none;
-    text-align: left;
-}
 li a:hover {
   background-color: #8fb5b7;
   color: white;
@@ -29,7 +24,7 @@ li a:hover {
 li:last-child {
   border-bottom: none;
 }
-.nav ul li:hover > ul {
+nav:hover ul {
   display: block;
 }
 nav:hover #submenu  {
