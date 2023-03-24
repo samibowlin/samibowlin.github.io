@@ -141,3 +141,5 @@ body {background-color: #8fb5b7; margin-left: 20px;
         display: block;
       }
   }
+  .footerbackground {
+    background-image: url("footerbackground.png")}
