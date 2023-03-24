@@ -32,13 +32,8 @@ li:last-child {
 .nav ul li:hover > ul {
   display: block;
 }
-.submenu {
+nav:hover #submenu  {
   display: none;
-  position: absolute;
-  left: 153px;
-  top: 147px;
-  width: 150px;
-  text-align: center;
 }
 
 
