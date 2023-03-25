@@ -35,11 +35,12 @@ li a:hover {
 li:last-child {
   border-bottom: none;
 }
+.subitem{display: none;}
 .items {
   width: 100%;
   text-align: center;
-  display: none;}
-  nav:hover .items{
+  display: block;}
+  nav:hover .subitem{
     display: block;
 }
 
