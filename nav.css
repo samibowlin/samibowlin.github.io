@@ -1,5 +1,5 @@
 
-.mainNav{
+.mainNav a{
   background-color: #Eaac8b;
   color: white;
   font-size: 15px;
@@ -8,8 +8,8 @@
 .menu
 {display: block;
 }
-.submenu{display: none;}
-li a {
+.submenu{display: none;list-style-type: none;}
+.menu li a {
   display: block;
   width: 60px;
   padding: 8px 16px;
@@ -17,7 +17,7 @@ li a {
   justify-content: flex-start;
 
 }
-ul {
+.menu ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -27,11 +27,11 @@ ul {
   position: fixed;
 
 }
-li a:hover {
+.menu li a :hover {
   background-color: #8fb5b7;
   color: white;
 }
-li:last-child {
+.menu li:last-child {
   border-bottom: none;
 }
 .subitem{display:none;}
@@ -43,10 +43,7 @@ li:last-child {
 nav:hover .subitem{
     display: block;
 }
-.menu,
-.submenu{
-    list-style-type: none;
-}
+
 .menu li.items:hover ul.submenu{
   display: block; 
 }
