@@ -1,6 +1,6 @@
 @font-face { 
-  font-family: handwritten;
-  src: url(DeliciousHandrawn-Regular.ttf); }
+  font-family: oswald;
+  src: url(Oswald/Oswald-VariableFont_wght.ttf); }
   .pic{
     width: 20px;
     height: 20px;
@@ -15,7 +15,7 @@
   .pic:hover + .picbig{
     width:200px;
   }
-blockquote {font: handwritten;} 
+blockquote {font: oswald;} 
 header{ position: fixed;}
 body {background-color: #8fb5b7; margin-left: 20px;
   ;}
