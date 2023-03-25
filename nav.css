@@ -1,12 +1,14 @@
 
 .menu ul {
-  background-color: #Eaac8b;
   color: white;
   font-size: 15px;
   list-style-type: none;
   display: block;
 }
-.submenu{display: none;list-style-type: none; background-color: #8fb5b7;}
+.submenu{
+  display: none;
+  list-style-type: none; 
+}
 .menu li.items:hover ul.submenu{
   display: block; 
 }
