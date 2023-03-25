@@ -1,6 +1,15 @@
 
+.nav{
+  background-color: #Eaac8b;
+  color: white;
+  font-size: 15px;
+  list-style-type: none;
+
+}
+
 .menu
-{display: block;}
+{display: block;
+}
 li a {
   display: block;
   width: 60px;
@@ -14,8 +23,7 @@ ul {
   margin: 0;
   padding: 0;
   width: 20%;
-  background-color: #Eaac8b;
-  color: white;
+  
   height: 100%;
   position: fixed;
 
@@ -27,10 +35,12 @@ li a:hover {
 li:last-child {
   border-bottom: none;
 }
-
-.submenu{
-  display: none;
+.items {
+  width: 100%;
+  text-align: center;
+  display: none;}
+  nav:hover .items{
+    display: block;
 }
-.submenu :hover {display: block;}
 
 
