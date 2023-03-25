@@ -1,6 +1,6 @@
 @font-face { 
   font-family: oswald;
-  src: url(Oswald/Oswald-VariableFont_wght.ttf); }
+  src: (Oswald-VariableFont_wght.ttf); }
   .pic{
     width: 20px;
     height: 20px;
