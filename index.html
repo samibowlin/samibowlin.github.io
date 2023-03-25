@@ -8,20 +8,7 @@
 
 
 <style>
-.pic{
-    width: 20px;
-    height: 20px;
-  }
-  .picbig{
-    position: absolute;
-    width:0px;
-    -webkit-transition:width 0.3s linear 0s;
-    transition:width 0.3s linear 0s;
-    z-index:10;
-  }
-  .pic:hover + .picbig{
-    width:200px;
-  }
+
 body { 
   display: grid;
   grid-template-areas: 
@@ -97,7 +84,8 @@ header, footer, article, nav, div {
     <footer class="footerbackground">
     <div style="text-align: left;">
     <img class="pic" src="phone.jpeg" alt="phone"> +1 888-888-8888 <img class = "pic"  src="mail.png" alt="email"> samibowlin@gmail.com</div> 
-    <img class="picbig" src="phone.jpeg" alt="phone"><img class="picbig" src="mail.jpeg" alt="email">
+    <img class="picbig" src="phone.jpeg" alt="phone">
+    <img class="picbig" src="mail.jpeg" alt="email">
   
 </footer>  
 </body>

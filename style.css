@@ -1,6 +1,20 @@
 @font-face { 
   font-family: handwritten;
   src: url(DeliciousHandrawn-Regular.ttf); }
+  .pic{
+    width: 20px;
+    height: 20px;
+  }
+  .picbig{
+    position: absolute;
+    width:0px;
+    -webkit-transition:width 0.3s linear 0s;
+    transition:width 0.3s linear 0s;
+    z-index:10;
+  }
+  .pic:hover + .picbig{
+    width:200px;
+  }
 blockquote {font: handwritten;} 
 header{ position: fixed;}
 body {background-color: #8fb5b7; margin-left: 20px;
