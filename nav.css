@@ -22,14 +22,18 @@
   background-color: #8fb5b7;
   color: white;
 }
-
+.items {color:white;
+  width: 100%;
+  text-align: center;
+  display: block;
+text-align: center;}
 .item {
     color:white;
     width: 100%;
     text-align: center;
     display: block;}
 
-.menu li.items:hover ul.submenu{
+.menu li.items:checked ul.submenu{
   display: block; 
   background-color: #8fb5b7;
   color: white;

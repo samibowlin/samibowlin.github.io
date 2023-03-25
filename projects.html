@@ -35,6 +35,7 @@ header, footer, article, nav, div {
   }
 #mainNav { 
   grid-area: nav; 
+  background-color:#Eaac8b
   }
 #siteAds { 
   grid-area: ads; 
@@ -61,23 +62,28 @@ header, footer, article, nav, div {
               <p style = "text-indent:2cm;">     <p>insert projects here :0 </p>
         
      </article>
-     <nav id="mainNav">  
-        <ul class="menu">
-            <li><a href="index.html">HOME</a>
-                <li><a href="about.html">ABOUT</a>
-                    <li class="submenu"><a href="projects.html">PROJECTS</a> 
-                        <ul class="dropdown">
-                            <li><a href="#">Link 1</a></li>
-                            <li><a href="#">Link 2</a></li>
-                            <li><a href="#">Link 3</a></li>
-                          </ul>
-                        <li><a href="reflection.html">REFLECTION</a>   
-                            <li><a href="#contact.html">CONTACT ME</a>   
-            </ul>
+     <nav id="mainNav">
+      <ul class="menu">
+        <li class="item"><a href="index.html">HOME</a></li>
+            <li class="item"><a href="about.html">ABOUT</a></li>
+                <li class="items"><a href="projects.html">PROJECTS</a> 
+                  <ul class="submenu">
+                        <li class="subitem"><a href="#">Link 1</a></li>
+                        <li class="subitem"><a href="#">Link 2</a></li>
+                        <li class="subitem"><a href="#">Link 3</a></li>
+                  </ul>
+                </li>
+                  <li class="item"><a href="reflection.html">REFLECTION</a>  </li> 
+                      <li class="item"><a href="#contact.html">CONTACT ME</a>   </li>
+       </ul>   
     </nav>
     <div id="siteAds"><img src="Logo.png"  width="120" height="120" alt="This is a logo"></div>
     <footer id="pageFooter">Copyright © 2023 by Samantha Bowlin. All rights reserved.
-                </footer>
+      <footer class="footerbackground">
+
+      <div style="text-align: left;"><img src="phone.jpeg" width="20" height = "20"> +1 888-888-8888 <img src="mail.png" width="20" height = "20"> samibowlin@gmail.com</div> 
+    </footer>
+     
          
          </body>
          </html>

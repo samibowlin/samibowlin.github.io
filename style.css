@@ -1,7 +1,10 @@
+@font-face { 
+  font-family: handwritten;
+  src: url(DeliciousHandrawn-Regular.ttf); }
+blockquote {font: handwritten;} 
 header{ position: fixed;}
 body {background-color: #8fb5b7; margin-left: 20px;
   ;}
-  
   h1 { color: white; margin-left: 20px;
     font-family: 'letter_magicregular';
     font-weight: normal;
@@ -141,5 +144,5 @@ body {background-color: #8fb5b7; margin-left: 20px;
         display: block;
       }
   }
-  .footerbackground {
+.footerbackground {
     background-image: url("footerbackground.png")}
