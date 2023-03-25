@@ -1,5 +1,5 @@
 
-.mainNav a{
+.nav {
   background-color: #Eaac8b;
   color: white;
   font-size: 15px;
@@ -8,7 +8,10 @@
 .menu
 {display: block;
 }
-.submenu{display: none;list-style-type: none;}
+.submenu{display: none;list-style-type: none; background-color: #8fb5b7;}
+.menu li.items:hover ul.submenu{
+  display: block; 
+}
 .menu li a {
   display: block;
   width: 60px;
