@@ -8,6 +8,20 @@
 
 
 <style>
+.pic{
+    width: 20px;
+    height: 20px;
+  }
+  .picbig{
+    position: absolute;
+    width:0px;
+    -webkit-transition:width 0.3s linear 0s;
+    transition:width 0.3s linear 0s;
+    z-index:10;
+  }
+  .pic:hover + .picbig{
+    width:200px;
+  }
 body { 
   display: grid;
   grid-template-areas: 
@@ -36,6 +50,8 @@ header, footer, article, nav, div {
   }
 #mainNav { 
   grid-area: nav; 
+  background-color:#Eaac8b;
+  color: white;
   }
 #siteAds { 
   grid-area: ads; 
@@ -59,30 +75,32 @@ header, footer, article, nav, div {
 <body>
     <header id="pageHeader"><h1>Reflection!</h1></header>
     <article id="mainArticle"> 
-              <p style = "text-indent:2cm;">     <p>Welcome! My name is Sami Bowlin and I am a student at Mizzou's School of Journalism. I am a Strategic Communication major, minoring in business. I focus on infographic creation and layout design currently. My personal design style is a mixture of Bohemian and art deco. I use many bright colors and retro fonts that give a strong Bohemian vibe. Strong line work and geometric shapes show in my work. These illustrate the art deco style. My identity shines in my work. My photography also captures these styles and moods. My work can all be seen on this portfolio website. </p>
-
-        
+              <p style = "text-indent:2cm;">     <p>Welcome! My name is Sami Bowlin and I am a student at Mizzou's School of Journalism. I am a Strategic Communication major, minoring in business. I focus on infographic creation and layout design currently. My personal design style is a mixture of Bohemian and art deco. I use many bright colors and retro fonts that give a strong Bohemian vibe. Strong line work and geometric shapes show in my work. These illustrate the art deco style. My identity shines in my work. My photography also captures these styles and moods. My work can all be seen on this portfolio website. </p> 
      </article>
-     <nav id="mainNav">  
+     <nav id="mainNav">
       <ul class="menu">
-        <li><a href="index.html">HOME</a>
-            <li><a href="about.html">ABOUT</a>
-                <li class="submenu"><a href="projects.html">PROJECTS</a> 
-                    <ul class="dropdown">
-                        <li><a href="#">Link 1</a></li>
-                        <li><a href="#">Link 2</a></li>
-                        <li><a href="#">Link 3</a></li>
-                      </ul>
-                    <li><a href="reflection.html">REFLECTION</a>   
-                        <li><a href="#contact.html">CONTACT ME</a>   
-        </ul>
+        <li class="item"><a href="index.html">HOME</a></li>
+            <li class="item"><a href="about.html">ABOUT</a></li>
+                <li class="items"><a href="projects.html">PROJECTS</a> 
+                  <ul class="submenu">
+                        <li class="subitem"><a href="#">Link 1</a></li>
+                        <li class="subitem"><a href="#">Link 2</a></li>
+                        <li class="subitem"><a href="#">Link 3</a></li>
+                  </ul>
+                </li>
+                  <li class="item"><a href="reflection.html">REFLECTION</a>  </li> 
+                      <li class="item"><a href="#contact.html">CONTACT ME</a>   </li>
+       </ul>   
     </nav>
-    <div id="siteAds"><img src="Logo.png"  width="120" height="120" alt="This is a logo"></div>
-    <footer id="pageFooter">Copyright © 2023 by Samantha Bowlin. All rights reserved.
-      <div style="text-align: left;"><img src="phone.jpeg" width="20" height = "20"> +1 888-888-8888 <img src="mail.png" width="20" height = "20"> samibowlin@gmail.com</div> 
-    </footer>
-         
-         </body>
-         </html>
+  <div id="siteAds"><img src="Logo.png"  width="120" height="120" alt="This is a logo"></div>
+  <footer id="pageFooter">Copyright © 2023 by Samantha Bowlin. All rights reserved.
+    <footer class="footerbackground">
+    <div style="text-align: left;">
+    <img class="pic" src="phone.jpeg" alt="phone"> +1 888-888-8888 <img class = "pic"  src="mail.png" alt="email"> samibowlin@gmail.com</div> 
+    <img class="picbig" src="phone.jpeg" alt="phone"><img class="picbig" src="mail.jpeg" alt="email">
+  
+</footer>  
+</body>
+</html>
 
 
