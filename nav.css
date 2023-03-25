@@ -10,6 +10,7 @@
 .menu
 {display: block;
 }
+.submenu{display: none;}
 li a {
   display: block;
   width: 60px;
@@ -35,13 +36,19 @@ li a:hover {
 li:last-child {
   border-bottom: none;
 }
-.subitem{display: none;}
+.subitem{display:none;}
 .items {
   width: 100%;
   text-align: center;
   display: block;}
-  nav:hover .subitem{
+
+nav:hover .subitem{
     display: block;
 }
-
-
+.menu,
+.submenu{
+    list-style-type: none;
+}
+.menu li.items:hover ul.submenu{
+  display: block; 
+}
