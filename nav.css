@@ -25,12 +25,7 @@ li a:hover {
 li:last-child {
   border-bottom: none;
 }
-nav :hover ul {
-  display: block;
-}
-nav:hover .submenu  {
-  display: none
-}
+
 .submenu{
   display: none;
 }
