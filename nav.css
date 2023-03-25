@@ -40,12 +40,17 @@
 }
 .subitem{display:none;}
 .items {
+  color:white;
   width: 100%;
   text-align: center;
   display: block;}
-
+.item {
+    color:white;
+    width: 100%;
+    text-align: center;
+    display: block;}
 nav:hover .subitem{
-    display: block; color: #Eaac8b;background-color: #8fb5b7;
+    display: block; color: white; background-color: #8fb5b7;
 }
 
 .menu li.items:hover ul.submenu{
