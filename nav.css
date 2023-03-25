@@ -1,17 +1,16 @@
 
-.nav {
+.menu ul {
   background-color: #Eaac8b;
   color: white;
   font-size: 15px;
   list-style-type: none;
-}
-.menu
-{display: block;
+  display: block;
 }
 .submenu{display: none;list-style-type: none; background-color: #8fb5b7;}
 .menu li.items:hover ul.submenu{
   display: block; 
 }
+.item a:hover {color:#Eaac8b; background-color: #8fb5b7;}
 .menu li a {
   display: block;
   width: 60px;
@@ -44,7 +43,7 @@
   display: block;}
 
 nav:hover .subitem{
-    display: block;
+    display: block; color: #Eaac8b;background-color: #8fb5b7;
 }
 
 .menu li.items:hover ul.submenu{
