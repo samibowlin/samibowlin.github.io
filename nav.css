@@ -1,12 +1,10 @@
 
-.mainnav{
+.mainNav{
   background-color: #Eaac8b;
   color: white;
   font-size: 15px;
   list-style-type: none;
-
 }
-
 .menu
 {display: block;
 }
