@@ -30,5 +30,12 @@ nav:hover ul {
 nav:hover #submenu  {
   display: none;
 }
+nav ul, nav:active ul {
+  display: none;
+  position: absolute;
+  padding: 20px 20px 20px 0px;
+  top: 20px;
+}
+
 
 
