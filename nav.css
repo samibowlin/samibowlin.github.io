@@ -1,3 +1,4 @@
+
 li a {
   display: block;
   width: 60px;
@@ -24,18 +25,15 @@ li a:hover {
 li:last-child {
   border-bottom: none;
 }
-nav:hover ul {
+nav :hover ul {
   display: block;
 }
-nav:hover #submenu  {
+nav:hover .submenu  {
+  display: none
+}
+.submenu{
   display: none;
 }
-nav ul, nav:active ul {
-  display: none;
-  position: absolute;
-  padding: 20px 20px 20px 0px;
-  top: 20px;
-}
-
+.submenu :hover {display: block;}
 
 
