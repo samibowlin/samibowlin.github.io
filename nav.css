@@ -1,49 +1,28 @@
 
-.menu ul {
+.menu {
   color: white;
   font-size: 15px;
   list-style-type: none;
   display: block;
+  align-items: center;
 }
 .submenu{
   display: none;
-  list-style-type: none; 
 }
-.menu li.items:hover ul.submenu{
+.menu ul.submenu:hover li.subitem{
   display: block; 
 }
-.item a:hover {color:#Eaac8b; background-color: #8fb5b7;}
-.menu li a {
-  display: block;
-  width: 60px;
-  padding: 8px 16px;
-  text-align: center;
-  justify-content: flex-start;
+.item:hover {color:#Eaac8b; background-color: #8fb5b7;}
 
-}
-.menu ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 20%;
-  
-  height: 100%;
-  position: fixed;
-
-}
-.menu li a :hover {
+.menu li.item :hover {
   background-color: #8fb5b7;
   color: white;
 }
-.menu li:last-child {
-  border-bottom: none;
+.menu li.items :hover ul.submenu {
+  background-color: #8fb5b7;
+  color: white;
 }
-.subitem{display:none;}
-.items {
-  color:white;
-  width: 100%;
-  text-align: center;
-  display: block;}
+
 .item {
     color:white;
     width: 100%;
@@ -55,4 +34,6 @@ nav:hover .subitem{
 
 .menu li.items:hover ul.submenu{
   display: block; 
+  background-color: #8fb5b7;
+  color: white;
 }
