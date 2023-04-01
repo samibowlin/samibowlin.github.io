@@ -9,14 +9,13 @@
 .picbig{
     position: absolute;
     width:0px;
-    -webkit-transition:width 0.3s linear 0s;
     transition:width 0.3s linear 0s;
     z-index:10;
   }
 
 .pic:hover + .picbig{
     width:200px;}
-blockquote {font-family: oswald;} 
+blockquote {font-family: 'Times New Roman', Times, serif;} 
 header{ position: fixed;}
 body {background-color: #8fb5b7; margin-left: 20px;
   ;}
@@ -136,16 +135,57 @@ body {background-color: #8fb5b7; margin-left: 20px;
 
 
   @media print {
-     body {font-family:georgia, times, serif;color: black; background-color: white;}; 
-    header, nav,  aside, form, iframe {
-        display: none;
-      }
-      blockquote {font-family: 'Courier New', Courier, monospace;color: black;}
-    article { width: 100%;
-    padding: 1in;
-    margin: 1in;}
+    /* Printing */
+  img {
+    display: none;
+  }
+  nav {
+    display: none;
+  }
+  body {
+    font-family: serif;
+    font-size: 12pt;
+    line-height: 18pt;
+    background: none;
+    color: #000;
+  }
+
+  main, .header, section, .content, .sidebar, .aside, .box-one, .footer {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background: none;
+    color: #000;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    color: #000;
+    font-size: 14pt;
+    line-height: 18pt;
+    padding: 0;
+    margin: 0;
+  }
+
+  a:link, a:visited {
+    color: #000;
+    background: none;
+    padding: 0;
+     }
+
+  blockquote {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14pt;
+    padding: 0;
+    margin: 0;
     }
-    @page {
-      margin: 1in;} 
-      blockquote {font-family: 'Franklin Gothic Medium'; color: black;
-      }
+
+  footer a:link, footer a:visited {
+    color: #000;
+    background: none;
+    padding: 0;
+     }
+  
+  @page  { 
+    margin: 1in, 1in, 1in, 1in;  
+  } }
+
+
