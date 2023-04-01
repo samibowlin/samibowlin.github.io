@@ -137,7 +137,7 @@ body {background-color: #8fb5b7; margin-left: 20px;
 
   @media print {
      body {font-family:georgia, times, serif;color: black; background-color: white;}; 
-    header, aside, form {
+    header, nav,  aside, form, iframe {
         display: none;
       }
       blockquote {font-family: 'Courier New', Courier, monospace;color: black;}
