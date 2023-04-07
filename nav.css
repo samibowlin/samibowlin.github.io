@@ -12,7 +12,9 @@
 .menu ul.submenu:hover li.subitem{
   display: block; 
 }
+.items {display: none;}
 .item:hover {color:#Eaac8b; background-color: #8fb5b7;}
+.items:hover {color:#Eaac8b; background-color: #8fb5b7;display: block;}
 
 .menu li.item :hover {
   background-color: #8fb5b7;
@@ -31,7 +33,7 @@
   width: 100%;
   text-align: center;
   display: block;
-text-align: center;}
+  text-align: center;}
 .item {
     color:white;
     width: 100%;
