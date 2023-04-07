@@ -44,3 +44,21 @@ nav>ul>li:hover ul{
 nav ul>li>ul>li:hover a{
   background-color: white;
 }
+nav>ul{
+  display: none;
+  text-align: left;
+  width: 100%;
+}
+
+nav ul, nav:active ul {
+  display: none;
+  position: absolute;
+  padding: 10px 10px 10px 10px;
+}
+nav>ul>li>ul{
+  padding: 10px;
+  display: none;
+  
+  background-color: white;
+  list-style-type: none;
+}
