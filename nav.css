@@ -13,6 +13,7 @@
 .menu ul.submenu:hover li.subitem{
   display: block; 
 }
+.subitem {display: none;}
 .items {display: none;}
 .item:hover {color:#Eaac8b; background-color: #8fb5b7;}
 .items:hover {color:#Eaac8b; background-color: #8fb5b7;display: block;}
