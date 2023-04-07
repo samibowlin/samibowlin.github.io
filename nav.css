@@ -17,7 +17,7 @@
 .items {display: none;}
 .item:hover {color:#Eaac8b; background-color: #8fb5b7;}
 .items:hover {color:#Eaac8b; background-color: #8fb5b7;display: block;}
-
+.items:hover ul.submenu{display: block;}
 .menu li.item :hover {
   background-color: #8fb5b7;
   color: white;
