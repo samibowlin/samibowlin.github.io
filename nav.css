@@ -9,6 +9,7 @@
 .submenu{
   display: none;
 }
+.submenu:hover{display: block;}
 .menu ul.submenu:hover li.subitem{
   display: block; 
 }
