@@ -38,3 +38,9 @@ text-align: center;}
   background-color: #8fb5b7;
   color: white;
 }
+nav>ul>li:hover ul{
+  display:block;
+}
+nav ul>li>ul>li:hover a{
+  background-color: white;
+}
