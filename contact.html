@@ -76,20 +76,23 @@ header, footer, article, nav, div {
         </form>
 
         </article>
-     <nav id="mainNav">
-      <ul class="menu">
-        <li class="item"><a href="index.html">HOME</a></li>
-            <li class="item"><a href="about.html">ABOUT</a></li>
-                <li class="items"><a href="projects.html">PROJECTS</a> 
-                  <ul class="submenu">
-                        <li class="subitem"><a href="https://www.instagram.com/samibowlin_design/">Link 1</a></li>
-                        <li class="subitem"><a href="#">Link 2</a></li>
-                        <li class="subitem"><a href="#">Link 3</a></li>
-                  </ul>
-                </li>
-                  <li class="item"><a href="reflection.html">REFLECTION</a>  </li> 
-                      <li class="item"><a href="#contact.html">CONTACT ME</a>   </li>
-       </ul>   
+        <nav id="mainNav">
+          <div class="navbar">
+          <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+      <div class="dropdown">
+          <button class="dropbtn">PROJECTS 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            <a href="reflection.html">REFLECTION</a>
+            <a href="contact.html">CONTACT ME</a>
+          </div>
+        </div> 
+      </div>
     </nav>
     <div id="siteAds"><img src="Logo.png"  width="120" height="120" alt="This is a logo"></div>
     <footer id="pageFooter">Copyright © 2023 by Samantha Bowlin. All rights reserved.
